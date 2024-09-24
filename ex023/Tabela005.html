@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colunas com Colgroup</title>
+    <style>
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        td, th {
+            border: 1px solid black;
+            padding:8px;
+        }
+        col.nome {
+            background-color: blueviolet;
+        }
+        col.sex{
+            background-color: brown;
+        }
+        col.grupo{
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio</h1>
+
+    <table>
+        <colgroup>
+            <col class="nome">
+            <col class="sex">
+            <col class="grupo" span="2">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Rosa Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jogadora</td>
+        </tr>
+        <tr>
+            <td>Ryan Pereira</td>
+            <td>M</td>
+            <td>23</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>M</td>
+            <td>25</td>
+            <td>Garoto de Programa</td>
+        </tr>
+    </table>
+</body>
+</html>
