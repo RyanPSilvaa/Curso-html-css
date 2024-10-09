@@ -42,11 +42,9 @@ section#redes-sociais {
     display: grid;
     margin: 5rem;
 }
-section#redes-socias img {
-    height: 50px;
-    width: 50rem;
-    margin: 10px;
-    border-radius: 500%;
+section#redes-sociais img{
+    height: 8rem;
+    border-radius: 100%;
     box-shadow: 2px 2px 5px rgba( 0, 0, 0, 0.400);
     box-sizing: border-box;
 }
