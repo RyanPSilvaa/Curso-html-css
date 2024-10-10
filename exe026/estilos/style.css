@@ -11,3 +11,25 @@ html{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
 }
+header{
+    background-color: rgba(0, 0, 0, 0.301);
+}
+header > h1{
+    text-align: center;
+}
+menu ul{
+    list-style-type: none;
+    background-color: gray;
+}
+menu li{
+    background-color: rgb(75,75,75);
+    color: white;
+    display: inline-block;
+    padding: 8px;
+}
+menu{
+    display: none;
+}
+article{
+    width: 600px;
+}
