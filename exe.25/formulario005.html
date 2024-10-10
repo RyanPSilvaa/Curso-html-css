@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos de Formulario</title>
+   
+</head>
+<body>
+    <h1>Checkbox e Radio Button</h1>
+    <form action="cadastro.js" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="imasc">
+            <label for="imasc">Masculino</label><br>
+
+            <input type="radio" name="sexo" id="ifem" checked>
+            <label for="imasc">Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <input type="checkbox" name="futebol" id="ifut" checked>
+            <label for="ifut">Futebol</label><br>
+
+            <input type="checkbox" name="basquete" id="ibasq">
+            <label for="ibasquete">Basquete</label><br>
+
+            <input type="checkbox" name="tenis" id="itenis">
+            <label for="itenis">Tênis</label><br>
+
+            <input type="checkbox" name="volei" id="ivolei">
+            <label for="ivolei">Vôlei</label><br>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
