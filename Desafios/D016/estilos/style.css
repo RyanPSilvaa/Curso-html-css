@@ -15,7 +15,7 @@
 }
 
 body, html {
-    background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    background-color: #200830;
     height: 100vh;
     width: 100vw;
 }
@@ -44,7 +44,7 @@ section#login{
 
 section#login > div#imagem{
     display: block;
-    background: url(../imagens/Tela-Login.jpg) no-repeat;
+    background:  #5f2c82 url(../imagens/Tela-Login.jpg) no-repeat;
     background-size: cover;
     background-position: left;
     height: 200px;
@@ -61,5 +61,39 @@ div#formulario > h1 {
 }
 
 div#formulario > p {
+    font-size: 0.8em;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #5f2c82;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover{
+    background-color: #200830;
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 5px;
+    margin-top: 5px;
+    background-color: #8e40c2;
+    color: white;
+    border: 1px solid #4b1370;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+form > a.botao > i {
     font-size: 0.8em;
 }
