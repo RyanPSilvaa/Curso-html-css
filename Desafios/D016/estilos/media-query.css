@@ -17,40 +17,6 @@
         float: right;
         width: 70%;
     }
-    
-    form > input[type=submit] {
-        display: block;
-        font-size: 1em;
-        width: 100%;
-        height: 40px;
-        background-color: #5f2c82;
-        color: white;
-        border-radius: 5px;
-        cursor: pointer;
-    }
-
-    form > input[type=submit]:hover{
-        background-color: #200830;
-    }
-
-    form > a.botao {
-        display: block;
-        text-align: center;
-        font-size: 1em;
-        width: 100%;
-        height: 40px;
-        padding-top: 5px;
-        margin-top: 5px;
-        background-color: #8e40c2;
-        color: white;
-        border: 1px solid #4b1370;
-        border-radius: 5px;
-        text-decoration: none;
-    }
-
-    form > a.botao > i {
-        font-size: 0.8em;
-    }
 }
 
 @media screen and (min-width: 992px) {
@@ -58,7 +24,7 @@
         background-image: linear-gradient(to top, #13012b, #5c0199);
     }
     section#login{
-        width: 950px;
+        width: 992px;
     }
 
     section#login > div#login{
@@ -71,44 +37,11 @@
         width: 50%;
     }
     div#formulario > h1 {
-        font-size: 2em;
+        font-size: 2.5em;
     }
     div#formulario > p {
-        font-size: 1.8em;
+        font-size: 1em;
     }
     
-    form > input[type=submit] {
-        display: block;
-        font-size: 1em;
-        width: 100%;
-        height: 40px;
-        background-color: #5f2c82;
-        color: white;
-        border-radius: 5px;
-        cursor: pointer;
-    }
-
-    form > input[type=submit]:hover{
-        background-color: #200830;
-    }
-
-    form > a.botao {
-        display: block;
-        text-align: center;
-        font-size: 1em;
-        width: 100%;
-        height: 40px;
-        padding-top: 5px;
-        margin-top: 5px;
-        background-color: #8e40c2;
-        color: white;
-        border: 1px solid #4b1370;
-        border-radius: 5px;
-        text-decoration: none;
-    }
-
-    form > a.botao > i {
-        font-size: 0.8em;
-    }
 
 }
